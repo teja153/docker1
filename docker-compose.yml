@@ -1,0 +1,10 @@
+version: '3'
+services:
+  train:
+    image: teja153/train1image:latest
+    ports:
+      - "80:80"
+    deploy:
+      replicas: 3
+
+ 
